@@ -1,0 +1,148 @@
+.dashboardMainContainer {
+  width: 100%;
+  padding: 32px;
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  flex-direction: column;
+  height: fit-content;
+}
+@media (max-width: 700px) {
+  .dashboardMainContainer {
+    width: 100%;
+    padding: 32px;
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+    flex-direction: column;
+    height: fit-content;
+  }
+}
+
+.premiumHead {
+  display: flex;
+  align-items: center;
+  height: auto;
+  padding: 15px;
+  width: inherit;
+  border-radius: 8px;
+  gap: 16px;
+  background-color: #008b5d;
+  color: white;
+}
+.premiumIcon {
+  padding-left: 32px;
+}
+.premiumAccountContent {
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.premiumAccountTag {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.personalInformationHead {
+  padding-top: 1rem;
+}
+.personalInformationInputForm {
+  display: flex;
+}
+@media  screen and (max-width: 1200px) {
+  .personalInformationInputForm {
+    display: flex;
+    flex-direction: column-reverse;
+  } 
+}
+.personalInformation {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-weight: 500;
+  line-height: 3rem;
+}
+.personalpicture {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  border: 10px solid white;
+  padding-left: 1rem;
+}
+.showMyProfile {
+  padding: 1.5rem 0rem 1rem 0rem;
+}
+.hirethesbestIOTag{
+font-size: 15px;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+.hirethesbestIO{
+  color:  #1688FE
+
+}
+.deleteAccounthead {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid wheat;
+  gap: 16px;
+}
+.deleteAccount {
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-weight: 600;
+}
+.deleteAccountConfirmation {
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.yesDelete {
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f25773;
+  font-weight: 600;
+}
+.fAndQhead{
+  display: flex;
+  padding-top: 20px;
+  flex-direction: column;
+  gap: 16px;
+}
+.getInTouchTag{
+  width: 100%;
+}
+.getInTouchTagLine{
+  color: #1688FE;
+}
+.getInTouchBorder {
+  background-color: #ECECED;
+  display: flex;
+  width: 80%;
+  height: 2px;
+}
+.fAndQTags{
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #595964;
+}
+.fAndQHeadTag{
+  display: flex;
+  gap: 2rem;
+}
+

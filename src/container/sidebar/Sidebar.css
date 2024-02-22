@@ -1,0 +1,85 @@
+
+.sidebarHead {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ECECED;
+    align-items: flex-start;
+    line-height: 33px; 
+    height: max-content;
+}
+.sidebarMainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 14px;
+    padding-top: 4px;
+}
+.resumizemeHeading {
+    padding-top: 1rem;
+    padding-left: 14px;
+}
+.ResumizemeBorder {
+    background-color: #ECECED;
+    width: 100%;
+    height: 1px;
+}
+.search {
+    display: flex;
+    align-items: center;
+}
+.myTemplate {
+    display: flex;
+    align-items: center;
+}
+.searchTag, .templateTag, .myboardTag {
+    padding-left: 4px;
+    font-size: 13px;
+    width: max-content;
+    font-weight: 700;
+}
+
+.myTemplate, .searchItems, .board, .timer, .boardAgent {
+    display: flex;
+    align-items: center;
+}
+.searchItemsTags, .timerTags, .boardTags, .boardAgentTags, .carlaTag {
+    padding-left: 4px;
+    font-size: 13px;
+
+}
+.myboardsTagline, .carlaTagline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 75px;
+}
+.myboardhead {
+    display: flex;
+    align-items: center;
+}
+.carlaTagline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+    padding-left: 14px;
+    padding: 10px 9px 16px 2px;
+}
+.carlaTagHead {
+    display: flex;
+    border: 1px solid #ECECED ;
+} 
+.carlaBorder{
+    background-color: #ECECED;
+    width: 100%;
+    height: 1px;
+}
+.carlaheadBorder{
+    padding-top: 10rem;
+}
+
+.carlaHead {
+    display: flex;
+    align-items: center;
+}
